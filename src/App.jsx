@@ -1,3 +1,4 @@
+import { Counter } from './components/Counter'
 import { RepositoryList } from './components/RepositoryList'
 import './styles/global.scss'
 
@@ -6,6 +7,12 @@ import './styles/global.scss'
 // o App no caso é um componente do react.
 export function App() {
 
-   
-    return <RepositoryList/>
+
+    return (
+        //fragment e uma tag html que nao produz nada visual no HTML.
+        <>
+            <RepositoryList />
+            <Counter />
+        </>
+    )
 }
