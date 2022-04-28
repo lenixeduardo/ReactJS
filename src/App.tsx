@@ -9,10 +9,10 @@ export function App() {
 
 
     return (
-        //fragment e uma tag html que nao produz nada visual no HTML.
-        <>
-            <RepositoryList />
-            <Counter />
-        </>
+        //fragment e uma tag html que nao produz nada visual no HTML. <> </> 
+
+        <RepositoryList />
+
+
     )
 }

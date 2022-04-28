@@ -4,12 +4,10 @@
 //renderizar.
 
 
-import {createRoot} from 'react-dom/client';
+import {render } from 'react-dom';
 import {App} from './App'
 
 
 // essa funcao recebe dois parametros, o primeiro e o que quero renderizar 
 // e  o segundo é dentro de qual elemento quero renderizar este elemento.
-const container = document.getElementById('root');
-const root = createRoot(container);
-root.render(<App tab="home" />)
+render(<App />, document.getElementById('root'))

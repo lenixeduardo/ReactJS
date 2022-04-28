@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    //importamos bibliotecas para uso no projeto.
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    // dizemos que vamos escrever HTML dentro do javascript
+    "jsx": "react-jsx",
+    
+    "noEmit": true,
+    //modo sctrict do javascript
+    "strict": true,
+    //
+    "moduleResolution": "node",
+    //
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+  },
+  //todo codigo da aplicacao ta dentro de src.
+  "include" : ["src"]
+}
